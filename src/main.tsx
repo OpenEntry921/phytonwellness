@@ -13,7 +13,7 @@ const forestImages = {
 const stageImages = [forestImages.jirisan, undefined, undefined, forestImages.phytoncide];
 function App(){return <>
   <a className="skip" href="#main">본문으로 바로가기</a>
-  <header><a className="logo" href="#top" aria-label="피톤웰니스 홈">PHYTON<span>WELLNESS</span></a><nav aria-label="주요 메뉴"><a href="#story">브랜드</a><a href="#products">제품</a><a href="#principles">원칙</a><a href="#partners">파트너</a></nav><a className="navCta" href="#stores">구매처</a></header>
+  <header><a className="logo headerLogo" href="#top" aria-label="피톤웰니스 홈"><img src="/images/jirisan-hinoki/Phytonwellness_Monogram_Logo.png" alt="PHYTONWELLNESS" width={1426} height={1103}/></a><nav aria-label="주요 메뉴"><a href="#story">브랜드</a><a href="#products">제품</a><a href="#principles">원칙</a><a href="#partners">파트너</a></nav><a className="navCta" href="#stores">구매처</a></header>
   <main id="main">
    <section className="hero" id="top"><img className="forestBackdrop heroImage" {...forestImages.hero} loading="eager" fetchPriority="high"/><div className="rings" aria-hidden="true"/><div className="heroCopy"><p className="kicker">JIRISAN CYPRESS · PHYTONWELLNESS</p><h1>숲에서<br/>시작합니다.</h1><p>지리산 편백에서 일상의 공간까지.<br/>원료의 시작과 만드는 태도를 정직하게 전합니다.</p><a className="button light" href="#story">숲의 여정 보기 <span>↓</span></a></div><div className="heroNote"><span>FOREST, DISTILLED.</span><small>원료와 공정의 이야기를 따라 천천히 내려가 보세요.</small></div></section>
    <section className="manifesto"><p className="sectionNo">PHYTONWELLNESS MANIFESTO</p><h2>우리는 자연을 꾸미지 않고,<br/><em>그 시작을 보여줍니다.</em></h2><p>좋은 제품은 화려한 문장보다 분명한 출처, 성실한 과정, 오래 지키는 원칙에서 탄생한다고 믿습니다.</p></section>
