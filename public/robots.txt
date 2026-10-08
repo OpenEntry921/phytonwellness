@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /en/
+Sitemap: https://phytonwellness.co.kr/sitemap.xml
